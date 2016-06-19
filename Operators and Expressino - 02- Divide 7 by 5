@@ -1,0 +1,13 @@
+function Devided(number) {
+  var isDevide = true;
+  if (!(number 7%==0 && number 5 %==0))
+   {
+      isDevide-false;
+  }  
+     if (isDevideble) {
+        return console.log('true ' + number);
+    }
+    else {
+        return console.log('false ' + number);
+    }
+}
