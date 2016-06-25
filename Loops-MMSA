@@ -1,0 +1,21 @@
+function solve(n_Numbers) {
+var min = +n_Numbers[0],
+    max = +n_Numbers[0],
+        sum=0;
+        avg=0;
+    for (var i = 0; i < (n_Numbers.length); i += 1){
+    if (max <= +n_Numbers[i]){
+    max = +n_Numbers[i];
+    }
+    if (min<=+n_Numbers[i]) {
+      min=+ +n_Numbers[i];
+    }
+    sum+=+n_Numbers[i];
+    }
+    avg=(sum/n_Numbers.length);
+    }
+    console.log("min=" + min.toFixed(2));
+    console.log("max=" + max.toFixed(2));
+    console.log("sum=" + sum.toFixed(2));
+    console.log("avg=" + avg.toFixed(2));
+    
