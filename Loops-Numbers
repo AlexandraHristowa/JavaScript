@@ -1,0 +1,7 @@
+function solve(args) {
+    var el = +args[0];
+    var res = '';
+    for (var i = 1; i <= el; i++) {
+       	result+=i+' ';
+    }
+    console.log(result);
