@@ -1,0 +1,14 @@
+function appearanceCount(args) {
+  var array = [8 ,6, 21, 6, -7856, 73, 73, -56];
+        var number = 3;
+        console.log(count(array, number));
+        function count(array, number) {
+            var counter = 0;
+            for (var i = 0; i < array.length; i++) {
+                if (array[i] == number) {
+                    counter++;
+                }
+            }
+            return counter;
+        }
+}
