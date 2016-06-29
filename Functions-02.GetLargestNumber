@@ -1,0 +1,12 @@
+function solve(args) {
+    var input = args[0].split(' ');
+    console.log(MaxThree(+input[0],+input[1],+input[2]));
+    
+    function MaxThree(k,l,m){
+        return k > getMax(l,m) ? k : getMax(l,m);
+    }
+    
+    function getMax(k,l) {
+        return k > l ? k : l;
+    }
+}
