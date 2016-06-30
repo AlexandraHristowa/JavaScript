@@ -1,0 +1,15 @@
+function solve(args){
+ var array=args,
+ remove=array[0];   
+ Array.prototype.indexOf=function (rem) {
+     var result=[];
+      for(var i in this){
+      if (this[i] !== rem && typeof this[i] !== 'function') {
+        result.push(this[i]);
+      }
+    }
+   return result;
+
+ };
+ console.log(array.indexOf(remove).join('\n'));
+}
